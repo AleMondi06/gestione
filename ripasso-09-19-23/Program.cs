@@ -10,6 +10,7 @@ namespace Ripasso_gestione_array_09._19._23
     {
         static int[] ArrayValoriRandom(int[] array, int a, int b)
         {
+            
             //creazione generazione casuale
             Random rand = new Random();
 
@@ -36,7 +37,7 @@ namespace Ripasso_gestione_array_09._19._23
             Random rand = new Random();
 
             //menù
-            Console.WriteLine("Inserire il numero in base a che cosa si voglia svolgere: \na) caricamento di un array di N elementi con numeri random \nb)troncamento di un array \nc)aggiunta ordinata di numeri in un array ");
+            Console.WriteLine("Inserire il numero  in base a che cosa si voglia svolgere: \na) caricamento di un array di N elementi con numeri random \nb)troncamento di un array \nc)aggiunta ordinata di numeri in un array ");
             switch (Console.ReadLine())
             {
                 case "a":
